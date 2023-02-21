@@ -1,0 +1,38 @@
+.leadership-section{
+    padding: 5vw;
+    background-color: rgb(232,232,232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.leadership-title{
+    margin-bottom: 5vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.featurette-heading{
+    font-weight: bold;
+}
+.lead{
+    color: gray;
+    font-family: Noto serif;
+    font-weight: bold;
+    font-size: 10px;
+
+    
+}
+
+.leadership-button{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-top: 24px;
+    border-radius: 28px;
+    padding: 11px 30px;
+    background-color: green;
+}

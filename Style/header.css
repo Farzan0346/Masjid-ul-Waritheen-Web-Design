@@ -1,0 +1,78 @@
+.header{
+    background-color: black;
+    height: 67px;
+    display: flex;
+    position: fixed;
+    top: 0;
+   left: 0;
+    right: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(52,52,52);
+    z-index: 100;
+}
+
+.small-device{
+    z-index: 1000;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    margin: 7px;
+    font-size: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.left{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home{
+    margin-left: 14px;
+}
+.home,
+.donate-now{
+    background-color: rgb(240, 170, 85);
+    padding: 6px 11px;
+    border-radius: 25px;
+}
+.logo-img{
+    width: 76px;
+    margin: 24px 10px 0px 10px;
+    border-radius: 48px;
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bismillah-img{
+    height: 46px;
+    margin-left: 10px;
+}
+.donate-now{
+    margin-right: 14px;
+}
+.menu-button-dropdown{
+    background-color: rgb(100,100,100);
+    
+}
+
+.menu-button-dropdown a{
+    color: white;
+}
+
+.menu-button-dropdown li:hover{
+    background-color: rgb(200,200,200);
+}

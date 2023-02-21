@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 425px){
+    .big-device{
+        display: none;
+    }
+
+    .five-pillar{
+        flex-direction: column;
+
+    }
+    .pillar{
+        margin: 10px;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+    .service-option{
+        margin: 10px;
+    }
+
+    .about-us-upper{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .about-us-pic{
+        width: 100%;
+    }
+    .about-us-text{
+        width: 70%;
+    }
+
+    .best-deals-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 426px) and (max-width: 1400px){
+    .small-device{
+        display: none;
+    }
+    
+}
+
+
+@media (min-width: 1401px){
+    .header{
+        left: 13vw;
+        right: 13vw;
+    }
+    .small-device{
+        display: none;
+        
+    }
+    .services{
+        width: 85vw;
+    }
+
+
+    body{
+       padding-left: 13vw;
+       padding-right: 13vw;
+    }
+    
+    .about-us-text{
+        width: 380px;
+    }
+
+ }
+
+ @media (min-width: 1401px){
+    .five-pillar{
+        
+        width: calc(100vw - 28vw);   
+    }
+ }

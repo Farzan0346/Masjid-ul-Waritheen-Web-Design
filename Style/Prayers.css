@@ -1,0 +1,63 @@
+.prayer-times-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-image: url('Prayers BG.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 470px;
+}
+
+.prayer-times-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.prayer-timings{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 13px;
+    width: 65vw;
+    border-radius: 10px;
+}
+.namaz-timing1,
+.namaz-timing2,
+.namaz-timing3,
+.namaz-timing4,
+.namaz-timing5,
+.namaz-timing6{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+.namaz-timing1,
+.namaz-timing3,
+.namaz-timing4{
+    background-color: gainsboro;
+}
+.namaz-timing2,
+.namaz-timing4,
+.namaz-timing6{
+    background-color: rgb(165, 165, 165);
+}
+.namaz-timing1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.namaz-timing6{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.prayer-timings p{
+    margin: 0;
+}

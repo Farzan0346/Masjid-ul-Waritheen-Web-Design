@@ -1,0 +1,30 @@
+.thumbnail{
+    height: calc(100vh - 64px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url("banner bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw calc(100vh - 64px);
+    margin-top: 65px;
+}
+
+
+.para1,
+.para2,
+.para3{
+    max-width: calc(100vw - 20vw);
+    color: white;
+    font-size: 24px; 
+    background-color: transparent;
+}
+.para3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    letter-spacing: 0.09cm;
+    color: rgb(215, 215, 215);
+}

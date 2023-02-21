@@ -1,0 +1,41 @@
+.best-deals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.best-deals-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.best-deals-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals-card{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+}
+.deals-card-detail{
+    padding: 40px;
+}
+
+.deals-card-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.deals-card-text1,
+.deals-card-text2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(200,200,200);
+}
+
