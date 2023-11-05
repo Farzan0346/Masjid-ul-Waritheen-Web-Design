@@ -100,9 +100,10 @@
 
 @media screen and (max-width: 768px){
     .email-input{
-        flex:auto;
+        flex:inherit;
     }
     .donate-input{
-    flex-direction: column;
+        flex-direction: column;
+        gap: 2rem;
     }
 } 
