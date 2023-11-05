@@ -38,4 +38,13 @@
     font-weight: 500;
     color: rgb(200,200,200);
 }
+@media screen and ( max-width: 768px ){
+    .deals-card{
+        flex-direction: column;
+    }
+    .deals-card>img{
+        height:230px;
+    }
+    
+} 
 
